@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Button from './Button';
 
 const About: React.FC = () => {
   return (
@@ -12,9 +13,9 @@ const About: React.FC = () => {
           The Corner Bistro es un restaurante familiar dedicado a servir comida casera con amor. Nuestra chef, Sarah,
           aporta años de experiencia y pasión a cada plato.
         </p>
-        <button className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-5 py-3 text-base font-bold text-white shadow-md transition-transform hover:scale-105">
-          <span className="truncate">Aprende más</span>
-        </button>
+        <Button to="/about">
+          Aprende más
+        </Button>
       </div>
       <div className="flex flex-col gap-3">
         <div

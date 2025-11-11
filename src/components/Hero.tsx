@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       ></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/10"></div>
       <div className="relative z-10 flex flex-col items-start gap-4 text-left text-white">
-        <h1 className="text-4xl font-black tracking-tighter sm:text-5xl">Bienvenido a El Rincón del Bistro</h1>
+        <h1 className="text-4xl font-black tracking-tighter sm:text-5xl">Bienvenidos al Rincón de los Sabores By David</h1>
         <p className="max-w-xl text-base font-normal">
           Experimenta el sabor de las comidas caseras en un ambiente acogedor y atractivo. Nuestro menú presenta platos clásicos elaborados con ingredientes frescos y locales.
         </p>

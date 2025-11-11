@@ -64,7 +64,10 @@ const MenuPage: React.FC = () => {
     ],
     'Postres': [
       { name: 'Porción de Tarta de Queso', path: '/images/Fotosweb/Postres/Porciontartadequeso.jpeg' },
-      { name: 'Tarta de Queso y Mango', path: '/images/Fotosweb/Postres/Tartaquesoymango.jpeg' }
+      { name: 'Tarta de Queso y Mango', path: '/images/Fotosweb/Postres/Tartaquesoymango.jpeg' },
+      { name: 'Tarta KitKat', path: '/images/Fotosweb/Postres/TartaKItKat.jpeg' },
+      { name: 'Tarta de Pistacho', path: '/images/Fotosweb/Postres/Tartapistacho.jpeg' },
+      { name: 'Tarta Tres Chocolates', path: '/images/Fotosweb/Postres/Tartatrescholates.jpeg' }
     ]
   };
 

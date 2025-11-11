@@ -103,10 +103,14 @@ const Reservations: React.FC = () => (
       <p className="max-w-2xl mx-auto text-neutral-700 dark:text-neutral-300 mb-8">
         ¿Está planeando una reunión grande? Ofrecemos precios especiales y opciones personalizadas para pedidos de grupos. Por favor, llámenos para discutir sus necesidades y hacer su pedido.
       </p>
-      <button className="bg-primary text-white font-bold text-lg py-3 px-8 rounded-lg hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/40">
-        <span className="material-symbols-outlined align-middle mr-2">call</span>
-        Llamar para Pedidos Grandes
-      </button>
+      <a
+        href="https://wa.me/34644555555"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center rounded-lg bg-green-500 px-6 py-3 text-base font-bold text-white shadow-md transition-transform hover:scale-105 active:scale-95"
+      >
+        <span className="truncate">Envíanos un mensaje por WhatsApp</span>
+      </a>
     </div>
   </main>
 );

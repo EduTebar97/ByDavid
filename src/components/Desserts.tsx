@@ -59,11 +59,11 @@ const Desserts: React.FC = () => (
               className="aspect-square w-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCw734nr-EHKlqsJyXZzWlMjmq6h76hZc0oAKtTq0JfGGqmBVBG0a_bMkp3F4tUskumE2UKTpokdgexFzzuqgvR2YG89D12ZLnLk_QMrzFfwDjj_99YU1jiZts3AdP3aSZ3oIubd33lRo5jKNzyLvjcC6IJasWj-1boFSNE6Pjy39yKNheCmY3W2JQi9DD2WD8r_PjYzf0l1HVjiYEx6vcmcRGQhFjugAQ3_rln8lu0cNjoyf1lZ3qENtWbFiG1VeHxZhUsWNMBeKs")',
+                  'url("/images/Fotosweb/Postres/TartaKItKat.jpeg")',
               }}
             ></div>
             <h3 className="px-4 pb-4 text-center text-lg font-semibold text-[#333333] dark:text-background-light">
-              Tarta de chocolate
+              Tarta KitKat
             </h3>
           </div>
           <div className="group flex flex-col gap-4 overflow-hidden rounded-lg bg-background-light shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl dark:bg-background-dark/50">
@@ -71,11 +71,11 @@ const Desserts: React.FC = () => (
               className="aspect-square w-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBaIg7eSWE2sxonvK3NLSPHp0f_wuw9x7GHqK_fu2RvTM2x1UJ0gbm_3n3YuItEccJZuCjzrgqZfbC6FNvUlMCiGzPSBkHUk0KZFHOXMDMj_ZmEk0TI4PIp8ZvmHQagiKbu98o2ILXcyBjOnEMTGbPf3qaMi0C6Kh16CfJ1dfqEBdpunMHaIGAs9UnFm_u1URQbPLc9DfXsLd4cPGm6glTd9kH5vrxzuq_gVd2R3aBDY9jzqvQPyoXvPeD7ajiM1dDST0S6i3cRQBI")',
+                  'url("/images/Fotosweb/Postres/Tartapistacho.jpeg")',
               }}
             ></div>
             <h3 className="px-4 pb-4 text-center text-lg font-semibold text-[#333333] dark:text-background-light">
-              Tarta de mango
+              Tarta de Pistacho
             </h3>
           </div>
           <div className="group flex flex-col gap-4 overflow-hidden rounded-lg bg-background-light shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl dark:bg-background-dark/50">
@@ -83,11 +83,11 @@ const Desserts: React.FC = () => (
               className="aspect-square w-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  'url("https://lh3.googleusercontent.com/aida-public/AB6AXuAutwI98rCgjJKRt8tBD-wZoKx1_RjJ7ioyvmKl6Cynk3GdIFU235gSADSQnGDlrARtfmqbiMVJLnqwqg9CYWAjMhKPxLN0PN_TbaueUyWGdQ1N1Lj6l_x8S8jb_vDi04gRaTI90_xBsWYVASen1TGlNcniJTm1qahEvAh4BNgVWOJ0C2VU3Gyp195CO1RLutf2XWo6W8PYBGi4203pQiqI-ZaaznETUtbOha753i-E0GVFCYDBIqy5DVcE393RT_73fSHld_ymeT4")',
+                  'url("/images/Fotosweb/Postres/Tartatrescholates.jpeg")',
               }}
             ></div>
             <h3 className="px-4 pb-4 text-center text-lg font-semibold text-[#333333] dark:text-background-light">
-              Tarta Kinder
+              Tarta Tres Chocolates
             </h3>
           </div>
         </div>

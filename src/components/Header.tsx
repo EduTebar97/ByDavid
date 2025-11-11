@@ -42,12 +42,6 @@ const Header: React.FC = () => {
           ))}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-4">
-           <button className="flex min-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary/20 dark:bg-primary/30 px-5 py-3 text-base font-bold text-primary shadow-sm hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
-            <span className="truncate">Iniciar Sesión</span>
-          </button>
-        </div>
-
         {/* Mobile Menu Button */}
         <div className="flex items-center lg:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="p-2 rounded-md text-stone-700 dark:text-stone-300 hover:text-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
@@ -74,11 +68,6 @@ const Header: React.FC = () => {
                 {link.name}
               </Link>
             ))}
-            <div className="pt-4">
-              <button className="w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary/20 dark:bg-primary/30 px-5 py-3 text-base font-bold text-primary shadow-sm hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
-                <span className="truncate">Iniciar Sesión</span>
-              </button>
-            </div>
           </nav>
         </div>
       )}
