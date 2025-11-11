@@ -1,8 +1,23 @@
 
 import React from 'react';
 
+// Define the types for our data structures
+interface Dish {
+  name: string;
+  path: string;
+}
+
+// Define the specific categories our menu can have
+type MenuCategory = 'Entrantes' | 'Arroces y fidegua' | 'De cuchara' | 'Sopas y cremas' | 'Carnes' | 'Pescados' | 'Guarnicion' | 'Postres';
+
+// Define the Menu object type, ensuring only valid categories are used as keys
+type Menu = {
+  [key in MenuCategory]: Dish[];
+};
+
 const MenuPage: React.FC = () => {
-  const menu = {
+  // Explicitly type the menu object
+  const menu: Menu = {
     'Entrantes': [
       { name: 'Ensaladilla Rusa', path: '/images/Fotosweb/Entrantes/Ensaladillarusa.jpeg' },
       { name: 'Parrilla de Verduras', path: '/images/Fotosweb/Entrantes/Parrilla%20de%20verduras.jpeg' },
@@ -53,7 +68,8 @@ const MenuPage: React.FC = () => {
     ]
   };
 
-  const orderedMenu = [
+  // Explicitly type the orderedMenu array
+  const orderedMenu: MenuCategory[] = [
     'Entrantes',
     'Arroces y fidegua',
     'De cuchara',
@@ -79,7 +95,8 @@ const MenuPage: React.FC = () => {
               </h2>
               <div className="flex overflow-x-auto p-4 [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden -mx-4">
                 <div className="flex flex-nowrap gap-6 px-4">
-                  {menu[category].map((dish, index) => (
+                  {/* Explicitly type the map parameters */}
+                  {menu[category].map((dish: Dish, index: number) => (
                     <div key={index} className="w-64 flex-shrink-0 group">
                       <div className="flex flex-col gap-3">
                         <div
