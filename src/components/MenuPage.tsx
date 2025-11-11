@@ -8,7 +8,7 @@ interface Dish {
 }
 
 // Define the specific categories our menu can have
-type MenuCategory = 'Entrantes' | 'Arroces y fidegua' | 'De cuchara' | 'Sopas y cremas' | 'Carnes' | 'Pescados' | 'Guarnicion' | 'Postres';
+type MenuCategory = 'Entrantes' | 'Arroces y fidegua' | 'De cuchara' | 'Sopas y cremas' | 'Carnes' | 'Pescados' | 'Postres';
 
 // Define the Menu object type, ensuring only valid categories are used as keys
 type Menu = {
@@ -50,7 +50,8 @@ const MenuPage: React.FC = () => {
       { name: 'Costillas a la Miel y Mostaza', path: '/images/Fotosweb/carnes/Costillas%20miel%20y%20mostaza.jpeg' },
       { name: 'Albóndigas con Tomate', path: '/images/Fotosweb/carnes/albóndigas%20con%20tomate.jpg' },
       { name: 'Costillas a la Miel y Mostaza', path: '/images/Fotosweb/carnes/costillas%20a%20la%20miel%20y%20mostaza_.jpg' },
-      { name: 'Manitas de Cerdo', path: '/images/Fotosweb/carnes/manitas%20de%20cerdo_.jpg' }
+      { name: 'Manitas de Cerdo', path: '/images/Fotosweb/carnes/manitas%20de%20cerdo_.jpg' },
+      { name: 'Taconera de Cerdo', path: '/images/Fotosweb/Guarnicion/taconera%20de%20cerdo.jpg' }
     ],
     'Pescados': [
       { name: 'Calamares a la Romana', path: '/images/Fotosweb/Pescados/Calamares%20a%20la%20romana.jpeg' },
@@ -58,9 +59,6 @@ const MenuPage: React.FC = () => {
       { name: 'Encocado de Marisco', path: '/images/Fotosweb/Pescados/Encocadomarisco2.jpeg' },
       { name: 'Merluza al Horno con Setas', path: '/images/Fotosweb/Pescados/Merluzaalhornoconsetas.jpeg' },
       { name: 'Merluza al Papillote', path: '/images/Fotosweb/Pescados/Merluzaalpaillote.jpeg' }
-    ],
-    'Guarnicion': [
-      { name: 'Taconera de Cerdo', path: '/images/Fotosweb/Guarnicion/taconera%20de%20cerdo.jpg' }
     ],
     'Postres': [
       { name: 'Porción de Tarta de Queso', path: '/images/Fotosweb/Postres/Porciontartadequeso.jpeg' },
@@ -79,7 +77,6 @@ const MenuPage: React.FC = () => {
     'Sopas y cremas',
     'Carnes',
     'Pescados',
-    'Guarnicion',
     'Postres',
   ];
 
