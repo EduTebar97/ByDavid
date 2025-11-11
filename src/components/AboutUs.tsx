@@ -4,21 +4,9 @@ import React from 'react';
 const AboutUs: React.FC = () => (
   <main className="flex-1">
     <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-      <div className="mx-auto grid max-w-5xl grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
-        <div className="flex flex-col justify-center">
-          <div className="w-full overflow-hidden rounded-xl shadow-lg">
-            <video
-              className="h-full w-full object-cover"
-              src="/images/Fotosweb/Marca%20Personal/davidsirve.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
-          </div>
-        </div>
+      <div className="mx-auto max-w-5xl">
         <div className="flex flex-col justify-center space-y-6">
-          <div className="text-center lg:text-left">
+          <div className="text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white sm:text-4xl">
               Chef David
             </h2>

@@ -3,11 +3,11 @@ import React from 'react';
 
 const PlatosEstrella: React.FC = () => {
   const platos = [
-    { name: 'Manitas de Cerdo', seed: 'manitas', size: 'large' },
-    { name: 'Arroces de la Casa', seed: 'arroces', size: 'normal' },
-    { name: 'Callos de Ternera', seed: 'callos', size: 'normal' },
-    { name: 'Carrillada al Vino Tinto', seed: 'carrillada', size: 'normal' },
-    { name: 'Rabo de Toro Estofado', seed: 'rabo', size: 'normal' },
+    { name: 'Arroz Negro', path: '/images/Fotosweb/Arroces%20y%20fidegua/Arroz%20negro.jpeg', size: 'large' },
+    { name: 'Arroz del Señorito', path: '/images/Fotosweb/Arroces%20y%20fidegua/ArrozSenyoret.jpeg', size: 'normal' },
+    { name: 'Fideuá', path: "/images/Fotosweb/Arroces%20y%20fidegua/Fideua.jpeg", size: 'normal' },
+    { name: 'Paella Valenciana', path: '/images/Fotosweb/Arroces%20y%20fidegua/Paella%20Valenciana.jpeg', size: 'normal' },
+    { name: 'Carrillada al Oporto', path: '/images/Fotosweb/carnes/Carrillada%20al%20oporto.jpeg', size: 'normal' },
   ];
 
   return (
@@ -31,9 +31,7 @@ const PlatosEstrella: React.FC = () => {
             <div
               className="absolute inset-0 bg-cover bg-center transform group-hover:scale-110 transition-transform duration-300"
               style={{
-                backgroundImage: `url(https://picsum.photos/seed/${plato.seed}/${plato.size === 'large' ? 800 : 400}/${
-                  plato.size === 'large' ? 800 : 400
-                })`,
+                backgroundImage: `url(${plato.path})`,
               }}
             ></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:bg-black/70 transition-colors duration-300"></div>

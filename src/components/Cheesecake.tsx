@@ -23,7 +23,7 @@ const Cheesecake: React.FC = () => {
           className="aspect-video w-full rounded-xl bg-cover bg-center shadow-md"
           style={{
             backgroundImage:
-              'url("https://picsum.photos/seed/cheesecake/600/400")',
+              'url("/images/Fotosweb/Postres/Porciontartadequeso.jpeg")',
           }}
         ></div>
         <div>
